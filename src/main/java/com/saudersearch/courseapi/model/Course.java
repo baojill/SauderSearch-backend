@@ -14,9 +14,9 @@ public class Course {
 
     private int credits;
 
-    @NotNull(message = "Course name may not be blank")
+    @NotNull(message = "Course prerequisite may not be null")
     private String prereqs;
-    @NotNull(message = "Course name may not be blank")
+    @NotNull(message = "Course corerequisites may not be blank")
     private String corereqs;
     @NotBlank(message = "Course description may not be blank")
     private String description;
